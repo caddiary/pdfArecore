@@ -55,8 +55,8 @@
 			this.toolStripSeparator2 = new System.Windows.Forms.ToolStripSeparator();
 			this.toolStripDropDownButton2 = new System.Windows.Forms.ToolStripDropDownButton();
 			this.削除ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-			this.抽出ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
 			this.挿入ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+			this.抽出ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
 			this.toolStripDropDownButton1 = new System.Windows.Forms.ToolStripDropDownButton();
 			this.プラス90度ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
 			this.左90度ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -274,8 +274,8 @@
 			this.toolStripDropDownButton2.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
 			this.toolStripDropDownButton2.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.削除ToolStripMenuItem,
-            this.抽出ToolStripMenuItem,
-            this.挿入ToolStripMenuItem});
+            this.挿入ToolStripMenuItem,
+            this.抽出ToolStripMenuItem});
 			this.toolStripDropDownButton2.Image = ((System.Drawing.Image)(resources.GetObject("toolStripDropDownButton2.Image")));
 			this.toolStripDropDownButton2.ImageTransparentColor = System.Drawing.Color.Magenta;
 			this.toolStripDropDownButton2.Name = "toolStripDropDownButton2";
@@ -287,20 +287,20 @@
 			// 削除ToolStripMenuItem
 			// 
 			this.削除ToolStripMenuItem.Name = "削除ToolStripMenuItem";
-			this.削除ToolStripMenuItem.Size = new System.Drawing.Size(98, 22);
+			this.削除ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
 			this.削除ToolStripMenuItem.Text = "削除";
-			// 
-			// 抽出ToolStripMenuItem
-			// 
-			this.抽出ToolStripMenuItem.Name = "抽出ToolStripMenuItem";
-			this.抽出ToolStripMenuItem.Size = new System.Drawing.Size(98, 22);
-			this.抽出ToolStripMenuItem.Text = "挿入";
 			// 
 			// 挿入ToolStripMenuItem
 			// 
 			this.挿入ToolStripMenuItem.Name = "挿入ToolStripMenuItem";
-			this.挿入ToolStripMenuItem.Size = new System.Drawing.Size(98, 22);
-			this.挿入ToolStripMenuItem.Text = "抽出";
+			this.挿入ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+			this.挿入ToolStripMenuItem.Text = "挿入";
+			// 
+			// 抽出ToolStripMenuItem
+			// 
+			this.抽出ToolStripMenuItem.Name = "抽出ToolStripMenuItem";
+			this.抽出ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+			this.抽出ToolStripMenuItem.Text = "抽出";
 			// 
 			// toolStripDropDownButton1
 			// 
@@ -457,8 +457,8 @@
 		private System.Windows.Forms.ToolStripMenuItem 度ToolStripMenuItem;
 		private System.Windows.Forms.ToolStripDropDownButton toolStripDropDownButton2;
 		private System.Windows.Forms.ToolStripMenuItem 削除ToolStripMenuItem;
-		private System.Windows.Forms.ToolStripMenuItem 抽出ToolStripMenuItem;
 		private System.Windows.Forms.ToolStripMenuItem 挿入ToolStripMenuItem;
+		private System.Windows.Forms.ToolStripMenuItem 抽出ToolStripMenuItem;
 		private System.Windows.Forms.ToolStripSeparator toolStripSeparator1;
 		private System.Windows.Forms.ToolStripButton toolStripButton1;
 		private System.Windows.Forms.ToolStripComboBox toolStripComboBox1;
